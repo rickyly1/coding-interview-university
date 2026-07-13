@@ -14,46 +14,6 @@
 >
 > *Best of luck to you!*
 
-<details>
-<summary>Translations:</summary>
-
-- [Bahasa Indonesia](translations/README-id.md)
-- [Bulgarian](translations/README-bg.md)
-- [Español](translations/README-es.md)
-- [German](translations/README-de.md)
-- [Japanese (日本語)](translations/README-ja.md)
-- [Marathi](translations/README-mr.md)
-- [Polish](translations/README-pl.md)
-- [Português Brasileiro](translations/README-ptbr.md)
-- [Russian](translations/README-ru.md)
-- [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Urdu - اردو](translations/README-ur.md)
-- [Uzbek](translations/README-uz.md)
-- [বাংলা - Bangla](translations/README-bn.md)
-- [ខ្មែរ - Khmer](translations/README-kh.md)
-- [简体中文](translations/README-cn.md)
-- [繁體中文](translations/README-tw.md)
-</details>
-
-<details>
-<summary>Translations in progress:</summary>
-
-- [Afrikaans](https://github.com/jwasham/coding-interview-university/issues/1164)
-- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
-- [French](https://github.com/jwasham/coding-interview-university/issues/89)
-- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
-- [Italian](https://github.com/jwasham/coding-interview-university/issues/1030)
-- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
-- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
-- [Persian - Farsi](https://github.com/jwasham/coding-interview-university/issues/186)
-- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
-- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
-- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
-- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
-- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
-- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
-</details>
-
 
 ## What is it?
 
@@ -199,22 +159,6 @@ For a complete CS self-taught program, the resources for my study plan have been
 
 ---
 
-## Why use it?
-
-If you want to work as a software engineer for a large company, these are the things you have to know.
-
-If you missed out on getting a degree in computer science, like I did, this will catch you up and save four years of your life.
-
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, or anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it would have been terrible.
-Every data structure I had ever used was built into the language, and I didn't know how they worked
-under the hood at all. I never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I used a few multidimensional arrays in my life and
-thousands of associative arrays, but I never created data structures from scratch.
-
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
-
-**[⬆ back to top](#table-of-contents)**
 
 ## How to use it
 
@@ -223,41 +167,6 @@ Everything below is an outline, and you should tackle the items in order from to
 I'm using GitHub's special markdown flavor, including tasks lists to track progress.
   - [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-### If you don't want to use git
-
-On this page, click the Code button near the top, then click "Download ZIP". Unzip the file and you can work with the text files.
-
-If you're open in a code editor that understands markdown, you'll see everything formatted nicely.
-
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
-
-### If you're comfortable with git
-
-Create a new branch so you can check items like this, just put an x in the brackets: [x]
-
-1. ***Fork the GitHub repo:*** `https://github.com/jwasham/coding-interview-university` by clicking on the Fork button.
-
-    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
-
-1. Clone to your local repo:
-
-    ```bash
-    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
-    cd coding-interview-university
-    git remote add upstream https://github.com/jwasham/coding-interview-university.git
-    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
-    ```
-
-1. Mark all boxes with X after you completed your changes:
-
-    ```bash
-    git commit -am "Marked personal progress"
-    git pull upstream main  # keep your fork up-to-date with changes from the original repo
-
-    git push # just pushes to your fork
-    ```
-
-**[⬆ back to top](#table-of-contents)**
 
 ## Don't feel you aren't smart enough
 
@@ -268,16 +177,6 @@ Create a new branch so you can check items like this, just put an x in the brack
 
 **[⬆ back to top](#table-of-contents)**
 
-## A Note About Video Resources
-
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-It would be great to replace the online course resources with free and always-available public sources,
-such as YouTube videos (preferably university lectures), so that you people can study these anytime,
-not just when a specific online course is in session.
-
-**[⬆ back to top](#table-of-contents)**
 
 ## Choose a Programming Language
 
@@ -476,16 +375,6 @@ without lyrics and you'll be able to focus pretty well.
 
 **[⬆ back to top](#table-of-contents)**
 
-## What you won't see covered
-
-These are prevalent technologies but not part of this study plan:
-
-- Javascript
-- HTML, CSS, and other front-end technologies
-- SQL
-
-**[⬆ back to top](#table-of-contents)**
-
 ## The Daily Plan
 
 This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
@@ -565,11 +454,6 @@ Challenge/Practice sites:
 
 **[⬆ back to top](#table-of-contents)**
 
-## Let's Get Started
-
-Alright, enough talk, let's learn!
-
-But don't forget to do coding problems from above while you learn!
 
 ## Algorithmic complexity / Big-O / Asymptotic analysis
 
@@ -605,19 +489,19 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
         - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] New raw data array with allocated memory
+    - [x] Implement a vector (mutable array with automatic resizing):
+        - [x] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+        - [x] New raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if the starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns the item at a given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
+        - [x] size() - number of items
+        - [x] capacity() - number of items it can hold
+        - [x] is_empty()
+        - [x] at(index) - returns the item at a given index, blows up if index out of bounds
+        - [x] push(item)
+        - [x] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [x] prepend(item) - can use insert above at index 0
+        - [x] pop() - remove from end, return value
         - [ ] delete(index) - delete item at index, shifting all trailing elements left
         - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
         - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
