@@ -47,7 +47,7 @@ class DynamicArray {
 
     public void push(int item) {
         if (this.size == this.capacity) {
-            this.resize();
+            this.resize(capacity * 2);
         }
 
         this.data[size] = item;
@@ -57,10 +57,6 @@ class DynamicArray {
     public void insert(int index, int item) {
         if (index < 0 || index > size) {
             throw new IndexOutOfBoundsException("Index out of bounds");
-        }
-
-        if (this.size == this.capacity) {
-            this.resize();
         }
 
         for (int i = index; i < size; i++) {
@@ -82,6 +78,11 @@ class DynamicArray {
         }
 
         this.size--;
+
+        if (this.size * 4 <= this.capacity) {
+            this.resize(this.capacity / 2);
+        }
+
         return this.data[size];
     }
 
@@ -89,5 +90,41 @@ class DynamicArray {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index out of bounds");
         }
+
+        for (int i = index; i + 1 < size; i++) {
+            this.data[i] = this.data[i + 1];
+        }
+
+        this.size--;
+
+        if (this.size * 4 <= this.capacity) {
+            this.resize(this.capacity / 2);
+        }
+    }
+
+    public void remove(int item) {
+        for (int i = 0; i < size; i++) {
+            if (this.data[i] == item) {
+                this.delete(i);
+                i--; // Adjust index after deletion
+            }
+        }
+    }
+
+    public int find(int item) {
+        for (int i = 0; i < size; i++) {
+            if (this.data[i] == item) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private void resize(int newCapacity) {
+        int[] resizedArray = new int[newCapacity];
+        for (int i = 0; i < size; i++) {
+            resizedArray[i] = this.data[i];
+        }
+        this.data = resizedArray;
     }
 }
